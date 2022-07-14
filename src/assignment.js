@@ -31,7 +31,7 @@ function countEvenNumbers(arrayOfNumbers) {
     let result = arrayOfNumbers.filter(x => x % 2 == 0)
   return result.length
 }
-
+assignment.countEvenNumbers = countEvenNumbers
 
 /**
  * Challenge - 3
